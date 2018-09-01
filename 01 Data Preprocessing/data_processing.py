@@ -17,4 +17,5 @@ print('\n\n')
 
 dependent = dataset.iloc[:,3].values
 #integer location based from 0 to length-1
+# [:,3] removes values from 0 to 3
 print(dependent)
